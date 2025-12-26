@@ -10,4 +10,11 @@ public class Box {
     public void setSize(int size) {
         this.size = size;
     }
+
+    public Box () {
+    }
+
+    public Box(int size) {
+        this.size = size;
+    }
 }
